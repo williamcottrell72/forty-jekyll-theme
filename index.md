@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, my name is Forty'
+landing-title: 'Datascience - science with the word "data" in front.'
 description: null
 image: null
 author: null
