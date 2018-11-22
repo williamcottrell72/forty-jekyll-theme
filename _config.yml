@@ -1,33 +1,33 @@
 # site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+title: Bloggidy Blog to the B-L-O-G
+subtitle: A Moderately OK Datascience Blog
+email: williamcottrell72@gmail.com
+description: Some thoughts about datascience, physics and life.
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
+street_address: 265 West Charleston Ave
+city: Palo Alto
+state: CA
+zip_code: 94306
 country: United States of America
-phone: (716) 555-5555
+phone: (650) 898 5362
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
 
 # social settings
-500px_url:
-facebook_url:
-github_url:
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-pinterest_url:
-slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+# 500px_url:
+facebook_url: https://www.facebook.com/william.cottrell1
+github_url: https://github.com/williamcottrell72
+# gitlab_url: https://gitlab.com/u/andrewbanchich
+# googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
+# instagram_url: https://instagram.com
+linkedin_url: https://www.linkedin.com/in/william-cottrell/
+# pinterest_url:
+# slack_url:
+# twitter_url: https://twitter.com/andrewbanchich
 
 # build settings
 markdown: kramdown
