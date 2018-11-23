@@ -1,16 +1,18 @@
 ---
-layout: allpost
+layout: post
 title: Good Reads
-description: Some useful reads!
+description: So that I can finally remember where the good articles are....
 nav-menu: true
 ---
 
 
-<p>In this note I'll try and collect some good reads I've come across.  Hopefully this will save me from having so many open tabs.</p>
+<p>Hope this is useful!  Please feel free to send me any reading recommendations and I'll consider adding them.</p>
 
 
 ## Data Science Interview Prep
 [Quora Interview Prep Resources](https://www.quora.com/What-are-some-of-the-best-resources-to-prepare-for-data-science-interviews)
+
+[40 Questions](https://www.analyticsvidhya.com/blog/2016/09/40-interview-questions-asked-at-startups-in-machine-learning-data-science/)
 
 ## NLP
 
@@ -23,6 +25,8 @@ nav-menu: true
 ## Physics and ML
 
 [Unreasonable Effectiveness of Learning Neural Networks](http://www.pnas.org/content/113/48/E7655.full)
+
+[Spin Glasses](https://arxiv.org/abs/cond-mat/0505032)
 
 
 ## Algorithms
@@ -43,5 +47,7 @@ nav-menu: true
 [FB Research](https://research.fb.com/)
 
 [Stanford ML Group](https://stanfordmlgroup.github.io/)
+
+[ML Book](https://github.com/rasbt/python-machine-learning-book)
 
 [List of Resources](https://medium.com/machine-learning-in-practice/my-curated-list-of-ai-and-machine-learning-resources-from-around-the-web-9a97823b8524)
