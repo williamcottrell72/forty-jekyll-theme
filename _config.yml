@@ -6,8 +6,8 @@ description: Some thoughts about datascience, physics and life.
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
-street_address: 265 West Charleston Ave
-city: Palo Alto
+street_address: Da' Street
+city: Straight Outta Palo Alto
 state: CA
 zip_code: 94306
 country: United States of America
