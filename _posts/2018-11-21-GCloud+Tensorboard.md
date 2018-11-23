@@ -2,18 +2,17 @@
 layout: post
 title: Google CLoud Computing with Tensorboard
 description: How to have your cake and eat it too.
-image: assets/images/pic01.jpg
+image: assets/images/tb.png
 ---
 
 
-In today's post I'm going to describe how to set up Tensorboard on google cloud so that you can monitor your deep learning progress with ease.  For the neophytes reading this, Tensorboard is an application that comes with Tensorflow and it allows you to visualize key metrics that are logged while the training is in progress.  The result is served on port 6006 of the 'local' browser and looks something like this:
-
-<img src="https://drive.google.com/uc?id=1gPpKJsJA93PPs-etLmTmhoTo1UyZTSy6" alt="Hope this works!">
+In today's post I'm going to describe how to set up Tensorboard on google cloud so that you can monitor your deep learning progress with ease.  For the neophytes reading this, Tensorboard is an application that comes with Tensorflow and it allows you to visualize key metrics that are logged while the training is in progress.  The result is served on port 6006 of the 'local' browser and looks something like the picture above.
+<!--
+<img src="https://drive.google.com/uc?id=1gPpKJsJA93PPs-etLmTmhoTo1UyZTSy6" alt="Hope this works!"> -->
 
 
 In this example, the cross-entropy is displayed.  We can, however, collect and display any statistic from the learning process we want, as well as the graph of the network.  
 
-<div lang="latex"> \int_{a}^{b} e^{x} = e^{b}-e^{a}</div>
 
 This is all well and good, but there are a couple of challenges to be met in going from the 'vanilla' instructions on the website to what I actually wanted to do.  First off, I wanted to run the training on google cloud so that my model is working even while my computer (and me) are sleeping.  Second, I'm not using Tensorflow directly, I'm using Pytorch and Tensorflow is merely serving as a backend.  Thus, some of the instructions for setting things up need to be adjusted.
 
