@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Good Reads
+bg: pink
 description: So that I can finally remember where the good articles are....
 nav-menu: true
 ---
@@ -49,5 +50,7 @@ nav-menu: true
 [Stanford ML Group](https://stanfordmlgroup.github.io/)
 
 [ML Book](https://github.com/rasbt/python-machine-learning-book)
+
+[Open CV](https://www.learnopencv.com/)
 
 [List of Resources](https://medium.com/machine-learning-in-practice/my-curated-list-of-ai-and-machine-learning-resources-from-around-the-web-9a97823b8524)
