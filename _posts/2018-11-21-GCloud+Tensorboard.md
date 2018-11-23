@@ -13,6 +13,8 @@ In today's post I'm going to describe how to set up Tensorboard on google cloud 
 
 In this example, the cross-entropy is displayed.  We can, however, collect and display any statistic from the learning process we want, as well as the graph of the network.  
 
+<div lang="latex"> {\color{white}1+2=3}</div>
+
 This is all well and good, but there are a couple of challenges to be met in going from the 'vanilla' instructions on the website to what I actually wanted to do.  First off, I wanted to run the training on google cloud so that my model is working even while my computer (and me) are sleeping.  Second, I'm not using Tensorflow directly, I'm using Pytorch and Tensorflow is merely serving as a backend.  Thus, some of the instructions for setting things up need to be adjusted.
 
 For the second problem, Pytorch vs Tensorflow, there is an off the shelf solution: <a href="https://pypi.org/project/tensorboardX/">TensorboardX</a> or <a href="https://github.com/lanpa/tensorboardX"> here</a> for the source.  This very straight-forward to get the hang of.  Here I'll just give a very simple example of the basic usage.  The procedure is as follows:
