@@ -4,6 +4,8 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+'<script type="text/javascript" src="http://latex.codecogs.com/latexit.js"></script>'
+
 (function($) {
 
 	skel.breakpoints({

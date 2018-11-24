@@ -14,8 +14,8 @@ country: United States of America
 phone: (650) 898 5362
 
 # homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+tiles-source: "pages" # accepts "posts" or "pages"
+tiles-count: 4
 
 # social settings
 # 500px_url:

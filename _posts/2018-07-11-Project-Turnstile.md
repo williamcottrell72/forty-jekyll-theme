@@ -2,7 +2,6 @@
 layout: post
 title: Project Turnstile
 description: Sounds Boring, but Actually Interesting!
-image: assets/images/pic01.jpg
 ---
 Todays blog is about my first project for the Metis datascience bootcamp (SF 2018).
 The premise of this project is that a group 'WomenTechWomenYes' (WTWY) is trying
@@ -67,12 +66,8 @@ We want a list of Starbucks instead.
 
 We can also use this method on the most popular MTA stations determined above.  Googleplaces allows us to get geojson codes for the stations, which can be fed into geopandas.  Overlaying this on a map showing gender percentages we get:
 
-![alt_text](../public/Stations_and_Census.png)
+<img src="https://drive.google.com/uc?id=14TJGSCWEjuv5xRmt7oAkgR_IrdiWZY3i">
 
 ##Final Scores
 
-Combining the various datasets we get a final score.  The choice of function used to combine these datasets if fairly arbitrary.  Ideally, more time would have been spent in deciding how to combine the various factors.  Oh well.  Our final scores are presented in the table below:
-
-![scores](../public/final_score.png)
-
-I have no more time to continue.  I hope you liked reading this.  Signing off.
+Combining the various datasets we get a final score.  The choice of function used to combine these datasets if fairly arbitrary.  Ideally, more time would have been spent in deciding how to combine the various factors.  Oh well.  I have no more time to continue.  I hope you liked reading this.  Signing off.

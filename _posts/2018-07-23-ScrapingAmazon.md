@@ -2,7 +2,6 @@
 layout: post
 title: Scraping Amazon
 description: Battle With the Behemoth
-image: assets/images/pic01.jpg
 ---
 
 ## Scraping Amazon
@@ -12,13 +11,13 @@ For those who want data (who doesn't?) and who can't find what they're looking f
 
 ### Motivation
 
-Let's say I'm selling widgets on Amazon.  Well, actually, I WAS selling widgets on Amazon, so this is not too hard to imagine.  I want to know how to best design my seller's page but I don't want to go about it How do I optimize the parameters of the page layout in order to maximize profit?
+Let's say I'm selling widgets on Amazon.  Well, actually, I WAS selling widgets on Amazon, so this is not too hard to imagine.  I want to know how to best design my seller's page.  I.e., how do I optimize the parameters of the page layout in order to maximize profit?
 
 Of course, I could go into one of many Amazon seller chat forums where this precise question is often discussed.  There are of course standard recommendations.  However, I don't trust humans, I only trust machines.  WWMD? (What would machines do?)
 
-Now, I could consider using the Amazon API to get the data I want.  An API is like filling out a FOIA for a website.  And, like an FOIA, you won't necessarily be able to get the data you want, when you want it.  You are basically constrained by what they are willing to give you and you have to play by their rules.  In the case of Amazon, one has to sign up as a seller/developer, get a KEY and, most annoyingly, promise to post Amazons junk on your blog.  I would never want to corrupt the purity of this semi-awesome blog, so that was a no-go.
+Now, I could consider using the Amazon API to get the data I want.  An API is like filling out a FOIA for a website.  And, like an FOIA, you won't necessarily be able to get the data you want, when you want it.  You are basically constrained by what they are willing to give you and you have to play by their rules.  In the case of Amazon, one has to sign up as a seller/developer, get a KEY and, most annoyingly, promise to post Amazons junk on your blog.  I would never want to corrupt the purity of this moderately-OK blog, so that was a no-go.
 
-So, we are down to scraping.  The data I want is right on the seller page so I know this should be possible.  In general, if you can see it, you can scrape it.  Of course, the API might let you get information that is invisible to the normal user, but we don't need that anyway.
+So, we are down to scraping.  The data I want is right on the seller page so I know this should be possible.  In general, if you can see it, you can scrape it.  Of course, the API might actually let you get information that is invisible to the normal user, but we don't need that anyway.
 
 In order to scrape Amazon I used a combination of Selenium and BeautifulSoup.  These are both Python modules, so, my first two lines of code will look like:
 

@@ -1,36 +1,35 @@
 ---
 layout: post
 title: Good Reads
-bg: pink
 description: So that I can finally remember where the good articles are....
 nav-menu: true
 ---
-
-
 <p>Hope this is useful!  Please feel free to send me any reading recommendations and I'll consider adding them.</p>
 
 
-## Data Science Interview Prep
+<h2> <font color="black"> Data Science Interview Prep</font> </h2>
 [Quora Interview Prep Resources](https://www.quora.com/What-are-some-of-the-best-resources-to-prepare-for-data-science-interviews)
 
 [40 Questions](https://www.analyticsvidhya.com/blog/2016/09/40-interview-questions-asked-at-startups-in-machine-learning-data-science/)
 
-## NLP
+<h2> <font color="black"> NLP </font> </h2>
 
-## Images
+(coming soon!)
+
+<h2> <font color="black"> Images </font> </h2>
 
 
 [Style Transfer](https://arxiv.org/pdf/1508.06576.pdf)
 
 
-## Physics and ML
+<h2> <font color="black"> Physics and ML </font> </h2>
 
 [Unreasonable Effectiveness of Learning Neural Networks](http://www.pnas.org/content/113/48/E7655.full)
 
 [Spin Glasses](https://arxiv.org/abs/cond-mat/0505032)
 
 
-## Algorithms
+<h2> <font color="black"> Algorithms </font> </h2>
 
 
 [Naive Bayes](https://link.springer.com/article/10.1007/s10994-017-5658-0)
@@ -38,7 +37,7 @@ nav-menu: true
 [Emperical Study of Naive Bayes Classifier](https://www.cc.gatech.edu/~isbell/reading/papers/Rish.pdf)
 
 
-## Resources
+<h2> <font color="black"> Resources </font> </h2>
 
 
 [OpenAI](https://openai.com/)
@@ -54,3 +53,5 @@ nav-menu: true
 [Open CV](https://www.learnopencv.com/)
 
 [List of Resources](https://medium.com/machine-learning-in-practice/my-curated-list-of-ai-and-machine-learning-resources-from-around-the-web-9a97823b8524)
+
+[Other Blogs](https://calculatedcontent.com/2015/03/25/why-does-deep-learning-work/)
